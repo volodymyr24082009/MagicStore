@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МАГІЧНІ СНИ - Магазин чарівних сновидінь</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <i data-lucide="moon"></i>
+                МАГІЧНІ СНИ
+                <i data-lucide="star"></i>
+            </h1>
+            <p>Ласкаво просимо до світу чарівних сновидінь!</p>
+        </header>
+
+        <main>
+            <div id="products" class="product-grid"></div>
+
+            <div class="actions">
+                <button id="adminButton" class="button">
+                    <i data-lucide="wand-2"></i> Адмін панель
+                </button>
+                <button id="cartButton" class="button">
+                    <i data-lucide="shopping-cart"></i> Кошик (<span id="cartCount">0</span>)
+                </button>
+            </div>
+        </main>
+
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <h2>Ваш магічний кошик</h2>
+                <p>Тут зберігаються ваші чарівні покупки</p>
+                <div id="cartItems"></div>
+                <div id="cartTotal"></div>
+                <button id="checkoutButton" class="button">Оформити замовлення</button>
+            </div>
+        </div>
+
+        <div id="adminModal" class="modal">
+            <div class="modal-content">
+                <h2>Адмін панель</h2>
+                <div id="adminLogin">
+                    <input type="password" id="adminPassword" placeholder="Введіть пароль">
+                    <button id="loginButton" class="button">Увійти</button>
+                </div>
+                <div id="adminPanel" style="display: none;">
+                    <h3>Додати новий товар</h3>
+                    <form id="addProductForm">
+                        <input type="text" id="productName" placeholder="Назва" required>
+                        <input type="text" id="productDescription" placeholder="Опис" required>
+                        <input type="number" id="productPrice" placeholder="Ціна" required>
+                        <input type="text" id="productImage" placeholder="URL фото" required>
+                        <button type="submit" class="button">Додати товар</button>
+                    </form>
+                    <h3>Видалити товар</h3>
+                    <div id="deleteProducts"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

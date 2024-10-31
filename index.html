@@ -3,66 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>МАГІЧНІ СНИ - Магазин чарівних сновидінь</title>
+    <title data-translate="title">МАГІЧНІ СНИ</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <h1>
                 <i data-lucide="moon"></i>
-                МАГІЧНІ СНИ
+                <span id="siteTitle" data-translate="title">МАГІЧНІ СНИ</span>
                 <i data-lucide="star"></i>
             </h1>
-            <p>Ласкаво просимо до світу чарівних сновидінь!</p>
-        </header>
-
-        <main>
-            <div id="products" class="product-grid"></div>
-
-            <div class="actions">
+            <nav>
+                <ul>
+                    <li><a href="#home" data-translate="home">Головна</a></li>
+                    <li><a href="#about" data-translate="about">Про нас</a></li>
+                    <li><a href="#products" data-translate="products">Товари</a></li>
+                    <li><a href="#contacts" data-translate="contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <select id="languageSelect" class="button">
+                    <option value="uk">Українська</option>
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                </select>
                 <button id="adminButton" class="button">
-                    <i data-lucide="wand-2"></i> Адмін панель
+                    <i data-lucide="wand-2"></i> <span data-translate="adminPanel">Адмін панель</span>
                 </button>
                 <button id="cartButton" class="button">
-                    <i data-lucide="shopping-cart"></i> Кошик (<span id="cartCount">0</span>)
+                    <i data-lucide="shopping-cart"></i> <span id="cartCount">0</span>
                 </button>
-            </div>
-        </main>
-
-        <div id="cartModal" class="modal">
-            <div class="modal-content">
-                <h2>Ваш магічний кошик</h2>
-                <p>Тут зберігаються ваші чарівні покупки</p>
-                <div id="cartItems"></div>
-                <div id="cartTotal"></div>
-                <button id="checkoutButton" class="button">Оформити замовлення</button>
+                <button id="changeBorderColorBtn" class="button" data-translate="changeColor">Змінити колір неону</button>
             </div>
         </div>
+    </header>
 
-        <div id="adminModal" class="modal">
-            <div class="modal-content">
-                <h2>Адмін панель</h2>
-                <div id="adminLogin">
-                    <input type="password" id="adminPassword" placeholder="Введіть пароль">
-                    <button id="loginButton" class="button">Увійти</button>
-                </div>
-                <div id="adminPanel" style="display: none;">
-                    <h3>Додати новий товар</h3>
-                    <form id="addProductForm">
-                        <input type="text" id="productName" placeholder="Назва" required>
-                        <input type="text" id="productDescription" placeholder="Опис" required>
-                        <input type="number" id="productPrice" placeholder="Ціна" required>
-                        <input type="text" id="productImage" placeholder="URL фото" required>
-                        <button type="submit" class="button">Додати товар</button>
-                    </form>
-                    <h3>Видалити товар</h3>
-                    <div id="deleteProducts"></div>
-                </div>
+    <main>
+        <div class="container">
+            <section id="home">
+                <h2 data-translate="welcome">Ласкаво просимо до світу чарівних сновидінь!</h2>
+            </section>
+
+            <section id="about">
+                <h2 data-translate="about">Про нас</h2>
+                <p data-translate="aboutDescription">МАГІЧНІ СНИ - це унікальний магазин, де ви можете придбати все необхідне для чарівних та незабутніх сновидінь. Наша місія - зробити ваш сон яскравим, приємним та корисним.</p>
+            </section>
+
+            <section id="products">
+                <h2 data-translate="products">Наші товари</h2>
+                <div id="productGrid" class="product-grid"></div>
+            </section>
+
+            <section id="contacts">
+                <h2 data-translate="contacts">Контакти</h2>
+                <p data-translate="contactPhone">Телефон: +380123456789</p>
+                <p data-translate="contactEmail">Email: info@magicni-sny.com</p>
+                <p data-translate="contactAddress">Адреса: вул. Сонна, 42, м. Київ, Україна</p>
+            </section>
+        </div>
+    </main>
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <h2 data-translate="cartTitle">Ваш магічний кошик</h2>
+            <div id="cartItems"></div>
+            <div id="cartTotal"></div>
+            <button id="checkoutButton" class="button" data-translate="checkout">Оформити замовлення</button>
+        </div>
+    </div>
+
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <h2 data-translate="adminTitle">Адмін панель</h2>
+            <form id="addProductForm">
+                <h3 data-translate="addProductTitle">Додати новий товар</h3>
+                <input type="text" id="productName_uk" data-translate-placeholder="productName" required>
+                <input type="text" id="productName_en" placeholder="Product Name (English)" required>
+                <input type="text" id="productName_de" placeholder="Produktname (Deutsch)" required>
+                <input type="text" id="productName_fr" placeholder="Nom du produit (Français)" required>
+                <input type="text" id="productName_es" placeholder="Nombre del producto (Español)" required>
+                <input type="number" id="productPrice" data-translate-placeholder="productPrice" required>
+                <textarea id="productDescription_uk" data-translate-placeholder="productDescription" required></textarea>
+                <textarea id="productDescription_en" placeholder="Description (English)" required></textarea>
+                <textarea id="productDescription_de" placeholder="Beschreibung (Deutsch)" required></textarea>
+                <textarea id="productDescription_fr" placeholder="Description (Français)" required></textarea>
+                <textarea id="productDescription_es" placeholder="Descripción (Español)" required></textarea>
+                <input type="file" id="productImage" accept="image/*" data-translate-placeholder="productImage" required>
+                <button type="submit" class="button" data-translate="submit">Відправити</button>
+            </form>
+            <div id="productList">
+                <h3 data-translate="productListTitle">Список товарів</h3>
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <p data-translate="footerText">&copy; 2024 МАГІЧНІ СНИ. Всі права захищені.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

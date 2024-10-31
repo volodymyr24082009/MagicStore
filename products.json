@@ -1,152 +1,428 @@
 [
-    {
-      "id": 1,
-      "name": "Зілля Солодких Снів",
-      "description": "Гарантує приємні сновидіння",
-      "price": 199
+  {
+    "name": {
+      "uk": "Зілля Солодких Снів",
+      "en": "Sweet Dreams Potion",
+      "de": "Süße Träume Trank",
+      "fr": "Potion de Doux Rêves",
+      "es": "Poción de Dulces Sueños"
     },
-    {
-      "id": 2,
-      "name": "Подушка Мрійника",
-      "description": "М'яка подушка для глибокого сну",
-      "price": 299
+    "description": {
+      "uk": "Гарантує приємні сновидіння",
+      "en": "Guarantees pleasant dreams",
+      "de": "Garantiert angenehme Träume",
+      "fr": "Garantit des rêves agréables",
+      "es": "Garantiza sueños agradables"
     },
-    {
-      "id": 3,
-      "name": "Свічка Нічних Видінь",
-      "description": "Створює магічну атмосферу для сну",
-      "price": 149
+    "price": 199
+  },
+  {
+    "name": {
+      "uk": "Подушка Мрійника",
+      "en": "Dreamer's Pillow",
+      "de": "Träumerkissen",
+      "fr": "Oreiller du Rêveur",
+      "es": "Almohada del Soñador"
     },
-    {
-      "id": 4,
-      "name": "Амулет Ясних Снів",
-      "description": "Допомагає запам'ятовувати сни",
-      "price": 249
+    "description": {
+      "uk": "М'яка подушка для глибокого сну",
+      "en": "Soft pillow for deep sleep",
+      "de": "Weiches Kissen für tiefen Schlaf",
+      "fr": "Oreiller doux pour un sommeil profond",
+      "es": "Almohada suave para un sueño profundo"
     },
-    {
-      "id": 5,
-      "name": "Кристал Спокою",
-      "description": "Заспокоює розум перед сном",
-      "price": 179
+    "price": 299
+  },
+  {
+    "name": {
+      "uk": "Нічник Зоряне Небо",
+      "en": "Starry Sky Night Light",
+      "de": "Sternenhimmel Nachtlicht",
+      "fr": "Veilleuse Ciel Étoilé",
+      "es": "Luz Nocturna Cielo Estrellado"
     },
-    {
-      "id": 6,
-      "name": "Магічна Лампа Сновидінь",
-      "description": "Проектує заспокійливі образи на стелю",
-      "price": 399
+    "description": {
+      "uk": "Проектує зоряне небо на стелю",
+      "en": "Projects starry sky on the ceiling",
+      "de": "Projiziert Sternenhimmel an die Decke",
+      "fr": "Projette un ciel étoilé au plafond",
+      "es": "Proyecta un cielo estrellado en el techo"
     },
-    {
-      "id": 7,
-      "name": "Ковдра Зоряного Неба",
-      "description": "Створює відчуття сну під зорями",
-      "price": 349
+    "price": 159
+  },
+  {
+    "name": {
+      "uk": "Аромадифузор 'Лавандові Поля'",
+      "en": "Lavender Fields Aroma Diffuser",
+      "de": "Lavendelfelder Aroma Diffuser",
+      "fr": "Diffuseur d'Arôme Champs de Lavande",
+      "es": "Difusor de Aroma Campos de Lavanda"
     },
-    {
-      "id": 8,
-      "name": "Чарівний Будильник",
-      "description": "Будить ніжною мелодією та ароматом",
-      "price": 229
+    "description": {
+      "uk": "Наповнює кімнату заспокійливим ароматом лаванди",
+      "en": "Fills the room with calming lavender scent",
+      "de": "Füllt den Raum mit beruhigendem Lavendelduft",
+      "fr": "Remplit la pièce d'un parfum apaisant de lavande",
+      "es": "Llena la habitación con un calmante aroma a lavanda"
     },
-    {
-      "id": 9,
-      "name": "Ароматизатор Лаванди",
-      "description": "Наповнює кімнату заспокійливим ароматом",
-      "price": 89
+    "price": 129
+  },
+  {
+    "name": {
+      "uk": "Магічна Книга Снів",
+      "en": "Magical Dream Journal",
+      "de": "Magisches Traumtagebuch",
+      "fr": "Journal de Rêves Magique",
+      "es": "Diario de Sueños Mágico"
     },
-    {
-      "id": 10,
-      "name": "Книга Тлумачення Снів",
-      "description": "Допомагає розшифрувати значення снів",
-      "price": 159
+    "description": {
+      "uk": "Записуйте та аналізуйте свої сни",
+      "en": "Record and analyze your dreams",
+      "de": "Zeichnen Sie Ihre Träume auf und analysieren Sie sie",
+      "fr": "Enregistrez et analysez vos rêves",
+      "es": "Registra y analiza tus sueños"
     },
-    {
-      "id": 11,
-      "name": "Музична Скринька Колискових",
-      "description": "Грає заспокійливі мелодії для сну",
-      "price": 279
+    "price": 89
+  },
+  {
+    "name": {
+      "uk": "Чарівна Маска для Сну",
+      "en": "Enchanted Sleep Mask",
+      "de": "Verzauberte Schlafmaske",
+      "fr": "Masque de Sommeil Enchanté",
+      "es": "Máscara de Dormir Encantada"
     },
-    {
-      "id": 12,
-      "name": "Чай для Глибокого Сну",
-      "description": "Суміш трав для покращення якості сну",
-      "price": 129
+    "description": {
+      "uk": "Блокує світло та покращує якість сну",
+      "en": "Blocks light and improves sleep quality",
+      "de": "Blockiert Licht und verbessert die Schlafqualität",
+      "fr": "Bloque la lumière et améliore la qualité du sommeil",
+      "es": "Bloquea la luz y mejora la calidad del sueño"
     },
-    {
-      "id": 13,
-      "name": "Магічний Ловець Снів",
-      "description": "Захищає від поганих снів",
-      "price": 189
+    "price": 59
+  },
+  {
+    "name": {
+      "uk": "Музична Скринька Колискових",
+      "en": "Lullaby Music Box",
+      "de": "Spieluhr mit Schlafliedern",
+      "fr": "Boîte à Musique de Berceuses",
+      "es": "Caja de Música de Nanas"
     },
-    {
-      "id": 14,
-      "name": "Нічник Місячного Сяйва",
-      "description": "Створює м'яке, заспокійливе світло",
-      "price": 219
+    "description": {
+      "uk": "Грає заспокійливі мелодії для кращого засинання",
+      "en": "Plays soothing melodies for better sleep",
+      "de": "Spielt beruhigende Melodien für besseren Schlaf",
+      "fr": "Joue des mélodies apaisantes pour un meilleur sommeil",
+      "es": "Reproduce melodías relajantes para un mejor sueño"
     },
-    {
-      "id": 15,
-      "name": "Піжама Невагомості",
-      "description": "Створює відчуття легкості під час сну",
-      "price": 329
+    "price": 179
+  },
+  {
+    "name": {
+      "uk": "Чарівний Будильник 'Світанок'",
+      "en": "Magical 'Sunrise' Alarm Clock",
+      "de": "Magischer 'Sonnenaufgang' Wecker",
+      "fr": "Réveil Magique 'Lever du Soleil'",
+      "es": "Despertador Mágico 'Amanecer'"
     },
-    {
-      "id": 16,
-      "name": "Маска для Сну 'Третє Око'",
-      "description": "Стимулює яскраві сновидіння",
-      "price": 139
+    "description": {
+      "uk": "Імітує природний схід сонця для м'якого пробудження",
+      "en": "Mimics natural sunrise for gentle awakening",
+      "de": "Imitiert natürlichen Sonnenaufgang für sanftes Erwachen",
+      "fr": "Imite le lever du soleil naturel pour un réveil en douceur",
+      "es": "Imita el amanecer natural para un despertar suave"
     },
-    {
-      "id": 17,
-      "name": "Гребінець Мрійливих Думок",
-      "description": "Допомагає розслабитися перед сном",
-      "price": 99
+    "price": 249
+  },
+  {
+    "name": {
+      "uk": "Кристал Спокою",
+      "en": "Crystal of Tranquility",
+      "de": "Kristall der Ruhe",
+      "fr": "Cristal de Tranquillité",
+      "es": "Cristal de Tranquilidad"
     },
-    {
-      "id": 18,
-      "name": "Шкарпетки Тихої Ходи",
-      "description": "Для безшумного пересування вночі",
-      "price": 79
+    "description": {
+      "uk": "Сприяє розслабленню та медитації перед сном",
+      "en": "Promotes relaxation and meditation before sleep",
+      "de": "Fördert Entspannung und Meditation vor dem Schlafengehen",
+      "fr": "Favorise la relaxation et la méditation avant le sommeil",
+      "es": "Promueve la relajación y meditación antes de dormir"
     },
-    {
-      "id": 19,
-      "name": "Килимок для Медитації",
-      "description": "Допомагає заспокоїтися перед сном",
-      "price": 169
+    "price": 99
+  },
+  {
+    "name": {
+      "uk": "Чай 'Місячне Сяйво'",
+      "en": "Moonlight Glow Tea",
+      "de": "Mondschein Tee",
+      "fr": "Thé Lueur de Lune",
+      "es": "Té Resplandor Lunar"
     },
-    {
-      "id": 20,
-      "name": "Подорожній Набір Сновидця",
-      "description": "Все необхідне для гарного сну в дорозі",
-      "price": 399
+    "description": {
+      "uk": "Заспокійливий трав'яний чай для кращого сну",
+      "en": "Calming herbal tea for better sleep",
+      "de": "Beruhigender Kräutertee für besseren Schlaf",
+      "fr": "Tisane apaisante pour un meilleur sommeil",
+      "es": "Té de hierbas calmante para un mejor sueño"
     },
-    {
-      "id": 21,
-      "name": "Олівець для Запису Снів",
-      "description": "Магічний олівець, що не висихає",
-      "price": 59
+    "price": 39
+  },
+  {
+    "name": {
+      "uk": "Ковдра 'Обійми Хмар'",
+      "en": "Cloud Embrace Blanket",
+      "de": "Wolkenumarmung Decke",
+      "fr": "Couverture Étreinte de Nuage",
+      "es": "Manta Abrazo de Nube"
     },
-    {
-      "id": 22,
-      "name": "Спрей 'Хмари Думок'",
-      "description": "Допомагає очистити розум перед сном",
-      "price": 109
+    "description": {
+      "uk": "Неймовірно м'яка та тепла ковдра для комфортного сну",
+      "en": "Incredibly soft and warm blanket for comfortable sleep",
+      "de": "Unglaublich weiche und warme Decke für komfortablen Schlaf",
+      "fr": "Couverture incroyablement douce et chaude pour un sommeil confortable",
+      "es": "Manta increíblemente suave y cálida para un sueño cómodo"
     },
-    {
-      "id": 23,
-      "name": "Магічний Годинник Сну",
-      "description": "Визначає ідеальний час для сну та пробудження",
-      "price": 289
+    "price": 199
+  },
+  {
+    "name": {
+      "uk": "Спрей для Подушки 'Сонні Мрії'",
+      "en": "Sleepy Dreams Pillow Mist",
+      "de": "Schlafträume Kissenspray",
+      "fr": "Brume d'Oreiller Rêves Endormis",
+      "es": "Spray para Almohada Sueños Dormilones"
     },
-    {
-      "id": 24,
-      "name": "Кулон 'Місячне Сяйво'",
-      "description": "Захищає власника під час сну",
-      "price": 199
+    "description": {
+      "uk": "Ароматний спрей для подушки, що сприяє засинанню",
+      "en": "Fragrant pillow spray that promotes falling asleep",
+      "de": "Duftender Kissenspray, der das Einschlafen fördert",
+      "fr": "Spray d'oreiller parfumé qui favorise l'endormissement",
+      "es": "Spray aromático para almohada que promueve el sueño"
     },
-    {
-      "id": 25,
-      "name": "Браслет Спокійних Снів",
-      "description": "Заспокоює нерви та покращує якість сну",
-      "price": 159
-    }
-  ]
+    "price": 29
+  },
+  {
+    "name": {
+      "uk": "Нічна Лампа 'Місячне Сяйво'",
+      "en": "Moonlight Glow Night Lamp",
+      "de": "Mondschein Nachtlampe",
+      "fr": "Lampe de Nuit Lueur de Lune",
+      "es": "Lámpara Nocturna Resplandor Lunar"
+    },
+    "description": {
+      "uk": "М'яке світло, що імітує місячне сяйво",
+      "en": "Soft light that mimics moonlight glow",
+      "de": "Sanftes Licht, das den Mondschein imitiert",
+      "fr": "Lumière douce qui imite la lueur de la lune",
+      "es": "Luz suave que imita el resplandor de la luna"
+    },
+    "price": 79
+  },
+  {
+    "name": {
+      "uk": "Магічний Килимок для Медитації",
+      "en": "Magical Meditation Mat",
+      "de": "Magische Meditationsmatte",
+      "fr": "Tapis de Méditation Magique",
+      "es": "Alfombrilla de Meditación Mágica"
+    },
+    "description": {
+      "uk": "Допомагає розслабитися перед сном",
+      "en": "Helps relax before sleep",
+      "de": "Hilft vor dem Schlafengehen zu entspannen",
+      "fr": "Aide à se détendre avant le sommeil",
+      "es": "Ayuda a relajarse antes de dormir"
+    },
+    "price": 69
+  },
+  {
+    "name": {
+      "uk": "Шумова Машина 'Звуки Природи'",
+      "en": "Nature Sounds White Noise Machine",
+      "de": "Naturgeräusche Weißes Rauschen Maschine",
+      "fr": "Machine à Bruit Blanc Sons de la Nature",
+      "es": "Máquina de Ruido Blanco Sonidos de la Naturaleza"
+    },
+    "description": {
+      "uk": "Відтворює заспокійливі звуки природи для кращого сну",
+      "en": "Plays soothing nature sounds for better sleep",
+      "de": "Spielt beruhigende Naturgeräusche für besseren Schlaf ab",
+      "fr": "Joue des sons apaisants de la nature pour un meilleur sommeil",
+      "es": "Reproduce sonidos relajantes de la naturaleza para un mejor sueño"
+    },
+    "price": 119
+  },
+  {
+    "name": {
+      "uk": "Магічні Шкарпетки для Сну",
+      "en": "Magical Sleep Socks",
+      "de": "Magische Schlaf-Socken",
+      "fr": "Chaussettes de Sommeil Magiques",
+      "es": "Calcetines Mágicos para Dormir"
+    },
+    "description": {
+      "uk": "Зігрівають ноги та покращують якість сну",
+      "en": "Warm feet and improve sleep quality",
+      "de": "Wärmen die Füße und verbessern die Schlafqualität",
+      "fr": "Réchauffent les pieds et améliorent la qualité du sommeil",
+      "es": "Calientan los pies y mejoran la calidad del sueño"
+    },
+    "price": 39
+  },
+  {
+    "name": {
+      "uk": "Книга 'Секрети Чарівних Снів'",
+      "en": "Book 'Secrets of Magical Dreams'",
+      "de": "Buch 'Geheimnisse Magischer Träume'",
+      "fr": "Livre 'Secrets des Rêves Magiques'",
+      "es": "Libro 'Secretos de los Sueños Mágicos'"
+    },
+    "description": {
+      "uk": "Розкриває таємниці керування сновидіннями",
+      "en": "Reveals secrets of dream control",
+      "de": "Enthüllt Geheimnisse der Traumkontrolle",
+      "fr": "Révèle les secrets du contrôle des rêves",
+      "es": "Revela secretos del control de los sueños"
+    },
+    "price": 49
+  },
+  {
+    "name": {
+      "uk": "Ароматичні Свічки 'Нічний Сад'",
+      "en": "Night Garden Scented Candles",
+      "de": "Nachtgarten Duftkerzen",
+      
+      "fr": "Bougies Parfumées Jardin Nocturne",
+      "es": "Velas Aromáticas Jardín Nocturno"
+    },
+    "description": {
+      "uk": "Створюють атмосферу спокою та затишку",
+      "en": "Create an atmosphere of calm and coziness",
+      "de": "Schaffen eine Atmosphäre der Ruhe und Gemütlichkeit",
+      "fr": "Créent une atmosphère de calme et de confort",
+      "es": "Crean una atmósfera de calma y comodidad"
+    },
+    "price": 59
+  },
+  {
+    "name": {
+      "uk": "Магічний Зволожувач Повітря",
+      "en": "Magical Air Humidifier",
+      "de": "Magischer Luftbefeuchter",
+      "fr": "Humidificateur d'Air Magique",
+      "es": "Humidificador de Aire Mágico"
+    },
+    "description": {
+      "uk": "Підтримує оптимальну вологість для здорового сну",
+      "en": "Maintains optimal humidity for healthy sleep",
+      "de": "Hält optimale Luftfeuchtigkeit für gesunden Schlaf",
+      "fr": "Maintient une humidité optimale pour un sommeil sain",
+      "es": "Mantiene la humedad óptima para un sueño saludable"
+    },
+    "price": 149
+  },
+  {
+    "name": {
+      "uk": "Набір Еліксирів 'Казкові Сни'",
+      "en": "Fairy Tale Dreams Elixir Set",
+      "de": "Märchenträume Elixier Set",
+      "fr": "Set d'Élixirs Rêves de Contes de Fées",
+      "es": "Set de Elixires Sueños de Cuento de Hadas"
+    },
+    "description": {
+      "uk": "Колекція еліксирів для різних типів снів",
+      "en": "Collection of elixirs for different types of dreams",
+      "de": "Sammlung von Elixieren für verschiedene Traumarten",
+      "fr": "Collection d'élixirs pour différents types de rêves",
+      "es": "Colección de elixires para diferentes tipos de sueños"
+    },
+    "price": 129
+  },
+  {
+    "name": {
+      "uk": "Магічний Будильник 'Спів Птахів'",
+      "en": "Magical 'Birdsong' Alarm Clock",
+      "de": "Magischer 'Vogelgesang' Wecker",
+      "fr": "Réveil Magique 'Chant d'Oiseaux'",
+      "es": "Despertador Mágico 'Canto de Pájaros'"
+    },
+    "description": {
+      "uk": "Будить ніжним співом птахів",
+      "en": "Wakes you up with gentle birdsong",
+      "de": "Weckt Sie mit sanftem Vogelgesang",
+      "fr": "Vous réveille avec un doux chant d'oiseaux",
+      "es": "Te despierta con un suave canto de pájaros"
+    },
+    "price": 89
+  },
+  {
+    "name": {
+      "uk": "Чарівна Піжама 'Зоряне Небо'",
+      "en": "Magical 'Starry Sky' Pajamas",
+      "de": "Magischer 'Sternenhimmel' Schlafanzug",
+      "fr": "Pyjama Magique 'Ciel Étoilé'",
+      "es": "Pijama Mágico 'Cielo Estrellado'"
+    },
+    "description": {
+      "uk": "Світиться в темряві, створюючи атмосферу казки",
+      "en": "Glows in the dark, creating a fairy tale atmosphere",
+      "de": "Leuchtet im Dunkeln und schafft eine märchenhafte Atmosphäre",
+      "fr": "Brille dans le noir, créant une atmosphère de conte de fées",
+      "es": "Brilla en la oscuridad, creando una atmósfera de cuento de hadas"
+    },
+    "price": 79
+  },
+  {
+    "name": {
+      "uk": "Магічний Килим 'Літаючі Сни'",
+      "en": "Magical 'Flying Dreams' Carpet",
+      "de": "Magischer 'Fliegende Träume' Teppich",
+      "fr": "Tapis Magique 'Rêves Volants'",
+      "es": "Alfombra Mágica 'Sueños Voladores'"
+    },
+    "description": {
+      "uk": "М'який килим, що стимулює яскраві сновидіння",
+      "en": "Soft carpet that stimulates vivid dreams",
+      "de": "Weicher Teppich, der lebhafte Träume anregt",
+      "fr": "Tapis doux qui stimule des rêves vivaces",
+      "es": "Alfombra suave que estimula sueños vívidos"
+    },
+    "price": 199
+  },
+  {
+    "name": {
+      "uk": "Набір для Ароматерапії 'Сонний Ліс'",
+      "en": "Sleepy Forest Aromatherapy Set",
+      "de": "Schlafwald Aromatherapie Set",
+      "fr": "Set d'Aromathérapie Forêt Endormie",
+      "es": "Set de Aromaterapia Bosque Dormilón"
+    },
+    "description": {
+      "uk": "Набір ефірних олій для глибокого та спокійного сну",
+      "en": "Set of essential oils for deep and peaceful sleep",
+      "de": "Set ätherischer Öle für tiefen und friedlichen Schlaf",
+      "fr": "Ensemble d'huiles essentielles pour un sommeil profond et paisible",
+      "es": "Conjunto de aceites esenciales para un sueño profundo y tranquilo"
+    },
+    "price": 89
+  },
+  {
+    "name": {
+      "uk": "Магічний Плед 'Обійми Єдинорога'",
+      "en": "Magical 'Unicorn Hug' Throw Blanket",
+      "de": "Magische 'Einhornumarmung' Kuscheldecke",
+      "fr": "Plaid Magique 'Câlin de Licorne'",
+      "es": "Manta Mágica 'Abrazo de Unicornio'"
+    },
+    "description": {
+      "uk": "Неймовірно м'який плед, що дарує відчуття казкових обіймів",
+      "en": "Incredibly soft throw blanket that gives a feeling of magical hugs",
+      "de": "Unglaublich weiche Decke, die ein Gefühl magischer Umarmungen vermittelt",
+      "fr": "Plaid incroyablement doux qui donne une sensation de câlins magiques",
+      "es": "Manta increíblemente suave que da una sensación de abrazos mágicos"
+    },
+    "price": 129
+  }
+]
